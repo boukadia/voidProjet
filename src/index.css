@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #00a859;
+  --color-brand-green-dark: #0b6b3a;
+  --color-brand-red: #e31e24;
+  --color-brand-red-dark: #b01219;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    @apply antialiased text-slate-900 bg-white;
+  }
+}
