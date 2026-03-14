@@ -65,14 +65,14 @@ const Hero = () => {
             {/* LEFT COLUMN: Text content */}
             <div className="flex flex-col items-center xl:items-start gap-8 relative w-full xl:w-auto xl:mr-auto">
               {/* Hero heading */}
-              <div className="relative self-stretch w-full h-auto xl:h-72 flex flex-col items-center xl:items-start text-center xl:text-left">
+              <div className="relative self-stretch w-full h-auto xl:min-h-[480px] flex flex-col items-center xl:items-start text-center xl:text-left">
                 <div className="xl:absolute xl:top-0 xl:left-0 font-bold text-slate-900 text-5xl sm:text-6xl xl:text-7xl tracking-[-1.80px] leading-[60px] sm:leading-[72px]">
-                  Transformez<br className="xl:block hidden"/>chaque
+                  Transformez<br className="xl:block hidden" />chaque
                   <span className="relative inline-block mx-3 xl:absolute xl:top-[57px] xl:left-[272px] xl:mx-0">
                     <span className="bg-[linear-gradient(90deg,rgba(22,163,74,1)_0%,rgba(11,107,58,1)_100%)] bg-clip-text text-transparent">produit</span>
                     <img className="absolute w-[97.96%] h-auto bottom-[-10px] left-0 mt-1" alt="Vector" src="/assets/vector.svg" />
                   </span>
-                  <br className="xl:hidden"/>
+                  <br className="xl:hidden" />
                   <span className="xl:absolute xl:top-36 xl:left-0 block mt-2 xl:mt-0">en expérience de jeu</span>
                 </div>
               </div>
@@ -81,12 +81,12 @@ const Hero = () => {
               <div className="flex flex-col items-center xl:items-start relative self-stretch w-full flex-[0_0_auto] text-center xl:text-left px-4 xl:px-0 mt-8 xl:mt-0">
                 <p className="relative w-fit mt-[-1.00px] font-normal text-lg sm:text-2xl tracking-[0] leading-8">
                   <span className="text-slate-600">
-                    YouCanWin connecte vos marques aux fans de<br className="hidden sm:block"/>
-                    football à travers des mécaniques de<br className="hidden sm:block"/>
+                    YouCanWin connecte vos marques aux fans de<br className="hidden sm:block" />
+                    football à travers des mécaniques de<br className="hidden sm:block" />
                     gamification innovantes.
                   </span>
                   <span className="font-semibold text-slate-900">
-                    {" "}Codes QR, cartes<br className="hidden sm:block"/>
+                    {" "}Codes QR, cartes<br className="hidden sm:block" />
                     digitales, défis et récompenses.
                   </span>
                 </p>
@@ -249,10 +249,10 @@ const Hero = () => {
           {/* Left: Image */}
           <div className="flex flex-col w-full xl:w-[592px] items-center xl:items-start px-0 xl:px-[72px] py-0">
             <div className="flex flex-col max-w-sm sm:max-w-md items-center xl:items-start relative w-full">
-              <img 
-                src="/assets/fans-de-football-avec-smartphones.png" 
-                alt="Fans de football" 
-                className="relative w-full xl:w-[447.98px] h-auto lg:h-[597.23px] rounded-2xl shadow-xl object-cover" 
+              <img
+                src="/assets/fans-de-football-avec-smartphones.png"
+                alt="Fans de football"
+                className="relative w-full xl:w-[447.98px] h-auto lg:h-[597.23px] rounded-2xl shadow-xl object-cover"
               />
               {/* Inset border overlay */}
               <div className="absolute w-full h-full top-0 left-0 rounded-2xl shadow-[inset_0px_0px_0px_1px_#0000001a,inset_0px_0px_0px_#ffffff] pointer-events-none" />
