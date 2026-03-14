@@ -73,7 +73,7 @@ const Hero = () => {
                     <img className="absolute w-[97.96%] h-auto bottom-[-10px] left-0 mt-1" alt="Vector" src="/assets/vector.svg" />
                   </span>
                   <br className="xl:hidden"/>
-                  <span className="xl:absolute xl:top-36 xl:left-0 block mt-2 xl:mt-0">en expérience de<br className="xl:block hidden"/>jeu</span>
+                  <span className="xl:absolute xl:top-36 xl:left-0 block mt-2 xl:mt-0">en expérience de jeu</span>
                 </div>
               </div>
 
